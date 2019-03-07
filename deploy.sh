@@ -1,6 +1,6 @@
-docker build -t multi-client:latest -t multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t multi-server:latest -t multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t multi-worker:latest -t multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t meiyen88/multi-client:latest -t meiyen88/multi-client:$SHA -f ./client/Dockerfile ./client
+docker build -t meiyen88/multi-server:latest -t meiyen88/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build -t meiyen88/multi-worker:latest -t meiyen88/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push meiyen88/multi-client:latest
 docker push meiyen88/multi-server:latest
 docker push meiyen88/multi-worker:latest
