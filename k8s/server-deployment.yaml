@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
         - name: server
-          image: meiyen88/multi-server
+          image: meiyenl/multi-server
           ports: 
             - containerPort: 5000
           env:
